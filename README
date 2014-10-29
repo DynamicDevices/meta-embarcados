@@ -1,0 +1,24 @@
+OpenEmbedded/Yocto layer developed by Embarcados.com.br
+================================================================
+
+This layer provides reference images for embedded linux
+applications.
+
+
+This layer depends on:
+
+URI: git://git.yoctoproject.org/poky
+branch: daisy
+revision: HEAD
+
+URI: git://github.com/meta-qt5/meta-qt5.git
+branch: master
+revision: HEAD
+
+URI: git://git.openembedded.org/meta-openembedded
+branch: daisy
+revision: HEAD
+
+The main hardware platform test is the Beaglebone Black.
+To add support to it you must add meta-bbb (from meta-embarcados)
+on your bblayers.conf file.
