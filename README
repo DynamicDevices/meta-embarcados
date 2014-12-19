@@ -17,7 +17,7 @@ revision: HEAD
 
 URI: git://github.com/meta-qt5/meta-qt5.git
 
-branch: master
+branch: dizzy
 
 revision: HEAD
 
