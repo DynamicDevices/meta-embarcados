@@ -9,6 +9,7 @@ IMAGE_INSTALL += "\
 			packagegroup-qt5-base \
             packagegroup-qt5-fonts \
             packagegroup-qt5-graphics \
+            packagegroup-qt5-web \
             packagegroup-qt5-extra \
 			qtbase-examples \
 			qt3d-examples \

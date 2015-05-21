@@ -9,6 +9,7 @@ PACKAGES += "\
             packagegroup-qt5-base \
             packagegroup-qt5-fonts \
             packagegroup-qt5-graphics \
+            packagegroup-qt5-web \
             packagegroup-qt5-extra \
             "
 
@@ -43,6 +44,11 @@ RDEPENDS_packagegroup-qt5-graphics ="\
             qtsvg-plugins \
             "            
 
+RDEPENDS_packagegroup-qt5-web ="\
+            qtwebengine \
+            qtwebengine-examples \
+            "
+
 RDEPENDS_packagegroup-qt5-extra ="\
 			qttools \
 			qttools-plugins \
@@ -67,4 +73,6 @@ RDEPENDS_packagegroup-qt5-extra ="\
             qtxmlpatterns \
             qtxmlpatterns-tools \
             qtquickcontrols-qmlplugins \
+            qtquick1 \
+            qttranslations \
             "
