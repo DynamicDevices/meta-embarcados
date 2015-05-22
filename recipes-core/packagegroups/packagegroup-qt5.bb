@@ -45,8 +45,6 @@ RDEPENDS_packagegroup-qt5-graphics ="\
             "            
 
 RDEPENDS_packagegroup-qt5-web ="\
-            qtwebengine \
-            qtwebengine-examples \
             "
 
 RDEPENDS_packagegroup-qt5-extra ="\
@@ -74,5 +72,4 @@ RDEPENDS_packagegroup-qt5-extra ="\
             qtxmlpatterns-tools \
             qtquickcontrols-qmlplugins \
             qtquick1 \
-            qttranslations \
             "
