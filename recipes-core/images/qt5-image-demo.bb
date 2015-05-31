@@ -4,6 +4,8 @@ LICENSE = "MIT"
 
 inherit core-image
 
+IMAGE_FEATURES += "package-management ssh-server-dropbear splash"
+
 IMAGE_INSTALL += "\
 			kernel-modules \
 			packagegroup-qt5-base \
@@ -34,4 +36,9 @@ IMAGE_INSTALL += "\
   		  	quitindicators \
 			qsiv \
 			qt5-demo-extrafiles \
+            gstreamer1.0-meta-base \
+            gstreamer1.0-meta-video \
+            gstreamer1.0-libav \
+            gstreamer1.0-plugins-bad-fbdevsink \
+            gstreamer1.0-plugins-bad-mpegpsdemux \
 			"
