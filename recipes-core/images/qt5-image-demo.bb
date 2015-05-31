@@ -36,6 +36,7 @@ IMAGE_INSTALL += "\
   		  	quitindicators \
 			qsiv \
 			qt5-demo-extrafiles \
+            qtwebkit-examples-examples \
             gstreamer1.0-meta-base \
             gstreamer1.0-meta-video \
             gstreamer1.0-libav \
