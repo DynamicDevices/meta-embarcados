@@ -1,0 +1,25 @@
+OpenEmbedded/Yocto layer for Raspberry Pi developed by
+Embarcados.com.br
+================================================================
+
+
+This layer provides support for Raspberry Pi and it's used
+by meta-embarcados
+
+
+
+This layer depends on:
+
+
+URI: git://git.yoctoproject.org/meta-raspberrypi
+
+branch: fido
+
+revision: HEAD
+
+
+URI: https://bitbucket.org/embarcados/meta-embarcados.git
+
+branch: fido
+
+revision: HEAD
