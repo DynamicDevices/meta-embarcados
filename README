@@ -10,21 +10,21 @@ This layer depends on:
 
 URI: git://git.yoctoproject.org/poky
 
-branch: daisy
+branch: fido
 
 revision: HEAD
 
 
 URI: git://github.com/meta-qt5/meta-qt5.git
 
-branch: dizzy
+branch: fido
 
 revision: HEAD
 
 
 URI: git://git.openembedded.org/meta-openembedded
 
-branch: daisy
+branch: fido
 
 revision: HEAD
 
