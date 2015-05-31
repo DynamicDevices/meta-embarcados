@@ -1,5 +1,5 @@
 
 RDEPENDS_${PN} += " \
-        vc-graphics \
-        vc-graphics-dev \
+        vc-graphics-hardfp \
+        vc-graphics-hardfp-dev \
 "

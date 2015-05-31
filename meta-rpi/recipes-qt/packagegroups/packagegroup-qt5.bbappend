@@ -3,6 +3,6 @@ PACKAGES += "\
             "
 
 RDEPENDS_packagegroup-qt5-machine-related = "\
-            ${@base_contains('MACHINE', 'raspberrypi', 'vc-graphics', '', d)} \
-            ${@base_contains('MACHINE', 'raspberrypi2', 'vc-graphics', '', d)} \
+            ${@base_contains('MACHINE', 'raspberrypi', 'vc-graphics-hardfp', '', d)} \
+            ${@base_contains('MACHINE', 'raspberrypi2', 'vc-graphics-hardfp', '', d)} \
             "
