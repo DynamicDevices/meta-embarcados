@@ -13,13 +13,13 @@ This layer depends on:
 
 URI: git://git.yoctoproject.org/meta-ti
 
-branch: daisy
+branch: fido
 
 revision: HEAD
 
 
 URI: https://bitbucket.org/embarcados/meta-embarcados.git
 
-branch: daisy
+branch: fido
 
 revision: HEAD
